@@ -20,5 +20,7 @@ public class Main {
         Area rect = new Area();
         rect.setDim(a, b);
         System.out.println("Area = "+rect.getArea());
+        Triangle tri = new Triangle();
+        System.out.println("Area of triangle: "+tri.getArea(3,4,5));
     }
 }
